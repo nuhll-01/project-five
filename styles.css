@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', serif;
+    margin: 25px 75px 25px 75px;
+}
+
+#main-header {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center; 
+    text-decoration: none;
+    padding-top: 2px;
+    padding-bottom: 6px;
+    margin-top: 0px;
+    font-weight: normal;
+    font-size: 87px;
+    font-family: 'Times New Roman', serif;
+    box-shadow: 0px 0px 0px hsl(0deg 0% 0% / 0.40); /* This will add shadow around the border */
+    /*
+    For safe keeps, don't delete right now.
+    background-color: rgb(204, 178, 152, 1); /* Similar color as 'body background color' + 90% transparency 
+    */
+}
+
+.align-left {
+    float: left;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    
+}
+
+.align-right {
+    float: right;
+    font-size: 18px;
+    padding-top: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.header-one {
+    font-style: italic;
+    float: left;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 28px;
+    word-wrap: break-word;
+    width: 752px;
+    margin-left: 40px;
+}
+
+.body-one {
+    text-align: justify;
+    width: 800px;
+    overflow-wrap: break-word;
+    font-weight: normal;
+    font-size: 20px;
+    text-indent: 20px;
+}
+
+.edit-image {
+    float: right;
+    width: 460px;
+    height: 340px;
+    margin-right: 40px;
+}
+
+.border {
+    border-top: 1px solid black;
+}
+
+.set-weight-normal {
+    font-weight: normal;
+}
