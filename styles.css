@@ -1,10 +1,22 @@
 body {
     font-family: 'Times New Roman', serif;
     margin: 25px 75px 25px 75px;
+    border: 1px solid black;
+    border-top: 0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.sticky-element {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
 }
 
 #main-header {
-    border-top: 1px solid black;
     border-bottom: 1px solid black;
     text-align: center; 
     text-decoration: none;
@@ -15,64 +27,111 @@ body {
     font-size: 87px;
     font-family: 'Times New Roman', serif;
     box-shadow: 0px 0px 0px hsl(0deg 0% 0% / 0.40); /* This will add shadow around the border */
-    /*
-    For safe keeps, don't delete right now.
-    background-color: rgb(204, 178, 152, 1); /* Similar color as 'body background color' + 90% transparency 
-    */
+}
+
+#body-paragraph-one {
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.2em;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 17px;
+}
+
+#body-paragraph-two {
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.2em;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 17px;
+}
+
+#body-paragraph-three {
+    text-align: justify;
+    text-indent: 40px;
+    line-height: 1.2em;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-size: 17px;
+}
+
+#title {
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black;
+    padding-bottom: 4px;
+    padding-left: 28px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 32px;
+    width: 450px;
+    word-wrap: break-word;
+    margin-left: 160px;
+}
+
+#horizontal-line {
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+
+.sub-headers {
+    margin-top: 40px;
+    margin-left: 215px;
+    font-size: 30px;
+}
+
+.proceed-to-link {
+    text-align: right;
+    font-size: 18px;
+    margin-right: 2vw;
+    color: lightblue;
+}
+
+.edit-image {
+    float: right;
+    width: 560px;
+    height: 360px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 20px rgb(77, 73, 73);
 }
 
 .align-left {
     float: left;
     font-size: 18px;
-    padding-top: 4px;
-    padding-left: 4px;
-    padding-bottom: 4px;
-    
+    padding-top: 6px;
+    padding-left: 8px;
+    padding-bottom: 6px;
 }
 
 .align-right {
     float: right;
     font-size: 18px;
-    padding-top: 4px;
-    padding-right: 4px;
-    padding-bottom: 4px;
+    padding-top: 6px;
+    padding-right: 8px;
+    padding-bottom: 6px;
 }
 
 .clear-float {
     clear: both;
 }
 
-.header-one {
-    font-style: italic;
-    float: left;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 28px;
-    word-wrap: break-word;
-    width: 752px;
-    margin-left: 40px;
-}
-
-.body-one {
-    text-align: justify;
-    width: 800px;
-    overflow-wrap: break-word;
-    font-weight: normal;
-    font-size: 20px;
-    text-indent: 20px;
-}
-
-.edit-image {
-    float: right;
-    width: 460px;
-    height: 340px;
-    margin-right: 40px;
+.clear-right-float {
+    clear: right;
 }
 
 .border {
-    border-top: 1px solid black;
+    background-color: white;
+    border-bottom: 1px solid black;
 }
 
 .set-weight-normal {
     font-weight: normal;
+}
+
+.border-top {
+    border-top: 1px solid black;
 }
